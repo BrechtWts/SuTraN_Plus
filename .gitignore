@@ -1,0 +1,8 @@
+# Ignore Python cache files
+__pycache__/
+*.csv
+hpc_logs/
+*.out
+*.err
+BPIC_17/
+BPIC_17_DR/
