@@ -1,6 +1,6 @@
 # SuTraN+
 
-This repository accompanies the paper "Unifying Multi-Task Process Prediction with Adaptive Loss Strategies in Transformers" (PDF in the repository root). SuTraN+ is a unified Transformer that jointly predicts activity suffixes, timestamp suffixes, remaining runtime, and case outcomes. The codebase also implements the multi-task optimization strategies benchmarked in the paper (equal weighting, Uncertainty Weighting, Constrained Uncertainty Weighting, GradNorm, and PCGrad), together with strong single-task counterparts, all sharing the same preprocessing and model backbone.
+This repository accompanies the paper "Unifying Multi-Task Process Prediction with Adaptive Loss Strategies in Transformers". SuTraN+ is a unified Transformer that jointly predicts activity suffixes, timestamp suffixes, remaining runtime, and case outcomes. The codebase also implements the multi-task optimization strategies benchmarked in the paper (equal weighting, Uncertainty Weighting, Constrained Uncertainty Weighting, GradNorm, and PCGrad), together with strong single-task counterparts, all sharing the same preprocessing and model backbone.
 
 - Strong emphasis on transparency and reproducibility: every preprocessing, training, and evaluation component is documented in-line to make adaptation and peer review straightforward.
 - The experimental grid in the paper covers four real-life event logs. Three are publicly available (BPIC_17, BPIC_17_DR, BPIC_19); the fourth (BAC) is proprietary and cannot be distributed.
